@@ -1,6 +1,8 @@
 # Python-Crash-Course
 Python编程：从入门到实践
 
+官方网址：https://ehmatthes.github.io/pcc/
+
 ### 第二章知识点小结
 
 - 方法`title()`让字符串首字母大写
@@ -68,6 +70,14 @@ emmm，没啥可写
 - `function_name(*parameter)`可以传递任意数量的实参（元组）
 - `function_name(**parameter)`可以传递任意数量的实参（字典）
 - 关键字`as`用于指定别名，例如：`from module_name import function_name as fn`
+
+### 第九章知识点小结
+
+- 方法`__init__`，每当类创建实例的时候，Python都会运行它
+- 类中的每个属性都必须有初始值，如果设置默认值的话`__init__()`可以为之设置默认值，而且无需在形参中进行包含
+- 修改属性有三种方式，①通过实例进行修改；②通过方法进行设置；③通过方法进行递增（增加特定的值）
+- `super()`是一个特殊函数，帮忙将父类和子类关联起来，可以让子类初始化父类的属性
+- 导入模块中的所有类`from module_name import *`但是一般不推荐这种做法，具体原因见书本9.4.5节
 
 
 
