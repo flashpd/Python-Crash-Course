@@ -3,6 +3,12 @@ Python编程：从入门到实践
 
 官方网址：https://ehmatthes.github.io/pcc/
 
+个人练习
+
+环境：Windows10
+
+工具：Visual Studio Code
+
 ### 第二章知识点小结
 
 - 方法`title()`让字符串首字母大写
