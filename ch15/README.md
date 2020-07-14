@@ -24,3 +24,9 @@
 
 - 函数`axis()`传入一个列表，里面要求四个值，x和y的最小最大值
 
+- `choice()`方法，向其中传入一个列表，元组或字符串，可以进行随机返回
+
+- `plt.axes().get_xaxis().set_visible(False)`隐藏x轴`plt.axes().get_yaxis().set_visible(False)`隐藏y轴
+
+- 函数`figure()`用于指定图表的宽度、高度、分辨率和背景色
+
