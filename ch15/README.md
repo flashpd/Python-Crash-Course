@@ -30,3 +30,7 @@
 
 - 函数`figure()`用于指定图表的宽度、高度、分辨率和背景色
 
+- 可视化包Pygal安装`python -m pip install --user pygal==1.7`
+
+
+
