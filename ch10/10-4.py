@@ -1,4 +1,4 @@
-filename = 'Python-Crash-Course\guest_book.txt'
+filename = 'guest_book.txt'
 
 with open(filename, 'w') as file_object:
     while 1:

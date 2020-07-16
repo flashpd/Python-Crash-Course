@@ -6,9 +6,9 @@ def read_txt(filename):
     except FileNotFoundError:
         pass
 
-filename_1 = 'Python-Crash-Course\cat.txt'
-filename_1 = 'Python-Crash-Course\cats.txt'
-filename_2 = 'Python-Crash-Course\dogs.txt'
+filename_1 = 'cat.txt'
+filename_1 = 'cats.txt'
+filename_2 = 'dogs.txt'
 
 read_txt(filename_1)
 read_txt(filename_2)

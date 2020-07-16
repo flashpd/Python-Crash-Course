@@ -1,7 +1,7 @@
 import json
 
 def get_favorite_number():    
-    filename = 'Python-Crash-Course\\10-11.json'
+    filename = '10-11.json'
     with open(filename, 'r+') as f_obj:
         number = json.load(f_obj)
 

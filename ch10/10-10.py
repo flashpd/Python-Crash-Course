@@ -1,4 +1,4 @@
-filename = 'Python-Crash-Course\cats.txt'
+filename = 'cats.txt'
 with open(filename) as f_obj:
     contents = f_obj.read()
     print(contents.count('cat'))

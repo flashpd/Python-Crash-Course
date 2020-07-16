@@ -2,7 +2,7 @@ import json
 
 def get_stored_username():
     #   获取之前存储的名字
-    filename = 'Python-Crash-Course\\username.json'
+    filename = 'username.json'
     try:
         with open(filename) as f_obj:
             username = json.load(f_obj)
@@ -16,7 +16,7 @@ def get_stored_username():
 
 def get_new_username():
     username = input("What is your name? ")
-    filename = 'Python-Crash-Course\\username.json'
+    filename = 'username.json'
     with open(filename, 'w') as f_obj:
         json.dump(username, f_obj)
     return username
